@@ -1,4 +1,5 @@
 <?php
+session_start() ;
 /**
  * Created by PhpStorm.
  * User: salix
@@ -9,7 +10,7 @@
 <html>
 <body>
 <?php
-session_start() ;
+
 if (isset($_SESSION['error']))
 {
     ?>
