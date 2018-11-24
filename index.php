@@ -9,6 +9,7 @@
 <html>
 <body>
 <?php
+session_start() ;
 if (isset($_SESSION['error']))
 {
     ?>
@@ -25,4 +26,4 @@ if (isset($_SESSION['error']))
     <input type="submit" value="calculate">
 </form>
 </body>
-</html>>
+</html>
